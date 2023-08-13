@@ -2,11 +2,12 @@
 #include <time.h>
 /* more headers goes there */
 #include <stdio.h>
+
 /* betty style doc for function main goes there */
 /**
- * main - A program that assigns random numbers each time they are executed
- * Description - A program that test whether a variable is positive or negative
- * Return: comment
+ * main - A program that assigns random number variables
+ * Description - A program that return a posive or negative variable
+ * Return: Comment
  */
 int main(void)
 {
@@ -16,11 +17,23 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-		printf("%d is positive", n);
+		printf("%d is positive\n", n);
 	else if (n == 0)
-		printf("%d is zero", n);
-	else if (n < 0)
-		printf("%d is negative", n);
-		printf("\n");
+		printf("%d is zero\n", n);
+	else
+		printf("%d is negative\n", n);
 	return (0);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
