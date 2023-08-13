@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
- * Main - A program that displays alphabets using putchar
- * Description - A program that prints alphabets in lower case
+ * main - Entry point
+ *
+ * Description: A program that prints alphabets in lowercase using putchar
+ *
  * Return: Comment
  */
 int main(void)
