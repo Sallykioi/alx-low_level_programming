@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- *main Entry function
+*main -  Entry function
 *Description: A program that finds the first 50 fibonacci number
- *Return:0
- */
+*Return:0
+*/
 int main(void)
 {
 	unsigned long int num1 = 1;
