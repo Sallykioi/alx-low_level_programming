@@ -1,18 +1,29 @@
 #include <stdio.h>
 /**
  *main Entry function
-*Description: A function that list numbers multiple of 3 and 5
+*Description: A program that finds the first 50 fibonacci number
  *Return:0
  */
 int main(void)
 {
-	int sum =0;
+	unsigned long int num1 = 1;
+	unsigned long int  num2 = 2;
+	unsigned long int next;
 	int i;
-	for (i = 0 ; i < 1024 ; i++)
+
+	printf("%lu, ", num1);
+	for (i = 1 ; i < 50 ; i++)
 	{
-		if (i % 3 == 0 || i % 5 == 0)
-			sum = sum + i;
+		printf("%lu", num2);
+		next = num1 + num2;
+		num1 = num2;
+		num2 = next;
+		if (i != 49)
+			printf(", ");
 	}
-	printf("%d\n", n);
+	printf("\n");
 	return (0);
 }
+
+
+
