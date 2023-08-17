@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-*main Entry function
+*main -  Entry function
 *Description: A function that list numbers multiple of 3 and 5
-*Return:0
+*Return: Comment
 */
 int main(void)
 {
