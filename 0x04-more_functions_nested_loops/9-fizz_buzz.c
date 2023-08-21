@@ -1,8 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that prints numbers from 1 to 100 and replaces fizz with numbers 
- divisible by 3 and buzz with numbers divisible by 5
- *@i:Parameter 1
+ * main - A program that prints numbers from 1 to 100 and writes Fizz and Buzz
  * Return:0
  */
 
