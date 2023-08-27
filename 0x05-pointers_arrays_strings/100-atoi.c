@@ -13,15 +13,15 @@ int _atoi(char *s)
 
 	if (s == NULL)
 	{
-		return 0;
+		return (0);
 	}
 	for (i = 0 ; s[i] != '\0' ; i++)
 	{
-		if (result > 0 && !(s[i] >= 48 && s[i] <= 57 ))
+		if (result > 0 && != (s[i] >= 48 && s[i] <= 57))
 		{
-			return result * sign;
+			return (result * sign);
 		}
-		if ((s[i] >= '0' && s[i] <= '9') || s[i] == '-')
+		if ((sign[i] >= '0' && s[i] <= '9') || s[i] == '-')
 		{
 			if (s[i] == '-')
 			{
@@ -31,6 +31,5 @@ int _atoi(char *s)
 			result = result * 10 + s[i] - '0';
 		}
 	}
-	return result * sign;
+	return (result * sign);
 }
-
