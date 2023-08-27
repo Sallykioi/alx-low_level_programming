@@ -17,11 +17,11 @@ int _atoi(char *s)
 	}
 	for (i = 0 ; s[i] != '\0' ; i++)
 	{
-		if (result > 0 && != (s[i] >= 48 && s[i] <= 57))
+		if (result > 0 && !(s[i] >= 48 && s[i] <= 57))
 		{
 			return (result * sign);
 		}
-		if ((sign[i] >= '0' && s[i] <= '9') || s[i] == '-')
+		if ((s[i] >= '0' && s[i] <= '9') || s[i] == '-')
 		{
 			if (s[i] == '-')
 			{
