@@ -10,7 +10,7 @@ int _atoi(char *s)
 	int i;
 	int sign = 1;
 	int result = 0;
-	int start = 0;
+	char start = 0;
 
 	if (s == NULL)
 	{
